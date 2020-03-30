@@ -17,7 +17,7 @@ public class Student {
     private int year; // Student Year
     private int grade; // Student Grade (0-100)
     // Create code to...
-    // Add two new student attributes
+    // Add one new student attributes
     
     // Constructors
     public Student() {
@@ -26,7 +26,7 @@ public class Student {
         year = 1;
         grade = 0;
         // Create code to...
-        // Assign new default attributes
+        // Assign new default attribute
     }
     public Student(String studentName, int studentYear, int studentGrade) {
         // Assign give info (Parameters may change)
@@ -34,7 +34,7 @@ public class Student {
         year = studentYear;
         grade = studentGrade;
         // Create code to...
-        // Assign new attributes
+        // Assign new attribute
     }
     
     // Accessors
@@ -48,7 +48,7 @@ public class Student {
         return grade;
     }
     // Create code to...
-    // Add two new accessor methods for new attributes
+    // Add a new accessor method for new attribute
     
     // Mutators
     public void setName(String newName) {
@@ -60,19 +60,22 @@ public class Student {
     public void setGrade(int newGrade) {
         grade = newGrade;
     }
-    // Creat code to...
-    // Add two new mutator methods for new attributes
+    // Create code to...
+    // Add a new mutator method for new attribute
     
     // String Method
     /**
      * Overrides the string value returned when printed
      * 
-     * @return 
+     * @return String of student info
      */
     @Override
     public String toString() {
+        // Create printed string
         // Create code to...
-        // Add readable statement for student info
-        return null; // Syntax Placeholder
+        // Add on new attribute to string
+        String studentInfo = name + ", Year " + year + ", Grade " + grade;
+        return studentInfo;
     }
 }
+// End of Class

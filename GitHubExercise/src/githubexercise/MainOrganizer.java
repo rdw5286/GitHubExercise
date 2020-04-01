@@ -33,22 +33,23 @@ public class MainOrganizer {
             choice = scan.nextInt();
             switch(choice) {
                 case 1: {
-                   // Create code to...
-                   // Get user-entered info on new student and call add method 
+                    // Create code to...
+                    // Get user-entered info on new student and call add method 
                    
-                   // Class.addStudent(newName, newYear, newGrade);
-                   break; 
+                    // studentClass.addStudent(newName, newYear, newGrade);
+                    break;
                 }
                 case 2: {
                     // Create code to...
                     // Remove student using user-entered name
                     
-                    // Class.removeStudent(findName);
+                    // studentClass.removeStudent(findName);
                     break;
                 }
                 case 3: {
                     // Organize students
                     organizeClass(studentClass, scan);
+                    System.out.println(); // Empty Line
                     break;
                 }
                 case 4: {

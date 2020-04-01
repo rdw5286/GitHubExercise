@@ -38,12 +38,27 @@ public class Student {
     }
     
     // Accessors
+    /**
+     * This method returns the name of the student
+     * 
+     * @return Name of student
+     */
     public String getName() {
         return name;
     }
+    /**
+     * This method returns the current year of the student
+     * 
+     * @return Year of student
+     */
     public int getYear() {
         return year;
     }
+    /**
+     * This method returns the grade of the student
+     * 
+     * @return Grade of student
+     */
     public int getGrade() {
         return grade;
     }
@@ -51,12 +66,27 @@ public class Student {
     // Add a new accessor method for new attribute
     
     // Mutators
+    /**
+     * This method sets the name of the student
+     * 
+     * @param newName New name of the student
+     */
     public void setName(String newName) {
         name = newName;
     }
+    /**
+     * This method sets the year of the student
+     * 
+     * @param newYear New year of the student
+     */
     public void setYear(int newYear) {
         year = newYear;
     }
+    /**
+     * This method sets the grade of the student
+     * 
+     * @param newGrade New grade of the student
+     */
     public void setGrade(int newGrade) {
         grade = newGrade;
     }

@@ -75,7 +75,7 @@ public class Class {
         }
         
         // Assign new list
-        Student[] newStudents = new Student[students.length];
+        Student[] newStudents = new Student[students.length-1];
         for (int i2=0; i2<students.length-1; i2++) {
             newStudents[i2] = students[i2];
         }

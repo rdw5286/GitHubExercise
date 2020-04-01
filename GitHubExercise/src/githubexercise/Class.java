@@ -71,7 +71,7 @@ public class Class {
         }
         if (check1) {
             // If student wasn't in list
-            return "A student with the name " + studentName + "was not found.";
+            return "A student with the name " + studentName + " was not found.";
         }
         
         // Assign new list

@@ -15,6 +15,7 @@ public class Class {
     // Class Variables
     private Student[] students;
     private int studentCount;
+    private String test;
     
     // Constructors
     /**
